@@ -160,3 +160,65 @@ body {
     text-align: right;
 }
 
+.category {
+    margin-top: 80px;
+}
+
+.category__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.content__card {
+    background-color: var(--secondary);
+    border-radius: 6px;
+    padding: 15px 0;
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card__title {
+    color: var(--primary);
+    font-family: var(--MB);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.card__img {
+    height: 167px;
+    max-width: 127px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card__price {
+    color: var(--primary);
+    font-family: var(--MR);
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.card__btn {
+    margin-top: 10px;
+    padding: 7px 57px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-family: var(--MB);
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: none;
+    transition: .3s;
+}
+
+.card__btn:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
