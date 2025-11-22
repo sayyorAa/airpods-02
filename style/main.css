@@ -224,6 +224,7 @@ body {
 .card__btn:hover {
     scale: 1.1;
     cursor: pointer;
+<<<<<<< HEAD
 }
 
 
@@ -249,4 +250,6 @@ body {
 .images {
     display: flex;
     gap: 25px;
+=======
+>>>>>>> 2f2f6d8e5d1f6c840f58177b00418e17770911d8
 }
